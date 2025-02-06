@@ -48,7 +48,7 @@ The profile card has:
 
 
 **Can I modify the design?**
-Yes! You can edit the Tailwind CSS styles in the `UserProfileCard.tsx` file.
+Yes! You can edit the Tailwind CSS styles in the `UserProfileCard.jsx` file.
 
 ## 📄 License
 This project is open-source and available under the [MIT License](LICENSE).
