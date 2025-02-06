@@ -12,7 +12,7 @@ A React application that fetches and displays a random user's profile using the 
 ![User Profile Card](public/Screenshots/s1.png)
 ![User Profile Card](public/Screenshots/s2.png)
 ## 🛠️ Technologies Used
-- React.js (with TypeScript)
+- React.js 
 - Tailwind CSS
 - Random User API
 - Lucide React Icons
