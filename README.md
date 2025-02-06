@@ -8,8 +8,9 @@ A React application that fetches and displays a random user's profile using the 
 - Responsive and modern UI with Tailwind CSS
 - Smooth loading animation while fetching data
 
-
-
+## Screenshots
+![User Profile Card](public/Screenshots/s1.png)
+![User Profile Card](public/Screenshots/s2.png)
 ## 🛠️ Technologies Used
 - React.js (with TypeScript)
 - Tailwind CSS
