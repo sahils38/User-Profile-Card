@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Random User Profile Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that fetches and displays a random user's profile using the [Random User API](https://randomuser.me/). The user information is presented in a beautifully designed card using Tailwind CSS and React components.
 
-## Available Scripts
+## 🚀 Features
+- Fetches a random user from the API
+- Displays user details in a styled profile card
+- Responsive and modern UI with Tailwind CSS
+- Smooth loading animation while fetching data
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technologies Used
+- React.js (with TypeScript)
+- Tailwind CSS
+- Random User API
+- Lucide React Icons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/random-user-profile.git
+   cd random-user-profile
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+## 🔄 How It Works
+1. The app fetches user data from `https://randomuser.me/api/` when it loads.
+2. Displays the user's profile picture, name, email, phone number, location, and date of birth.
+3. The UI is styled using Tailwind CSS with a clean and minimalistic card design.
+4. A loading animation appears while data is being fetched.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎨 UI Design
+The profile card has:
+- A gradient header
+- A centered circular profile image
+- User details displayed in neatly structured sections
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Can I modify the design?**
+Yes! You can edit the Tailwind CSS styles in the `UserProfileCard.tsx` file.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
 
-### `npm run eject`
+## 📩 Contact
+For any issues or improvements, feel free to open an issue or reach out:
+- GitHub: [sahils38](https://github.com/sahils38)
+- Email: sahilsaras38@gmail.com
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
